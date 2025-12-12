@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   router: {
     base: "/wjkw1.com/",
   },
-  modules: ["@nuxt/eslint", "@nuxt/fonts"],
+  modules: ["@nuxt/eslint", "@nuxt/fonts", "@nuxt/test-utils/module",],
 
   css: ["~/assets/css/main.css"],
   vite: {
