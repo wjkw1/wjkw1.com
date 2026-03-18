@@ -10,12 +10,12 @@
         <p class="text-base sm:text-lg mb-3 sm:mb-5 text-gray-600 fade-in text-center" data-test="subtitle">
             We’ve moved! Redirecting you to our new home...
         </p>
-        <a href="https://westernwilson.webflow.io/"
+        <a href="https://westernwilson.com/"
             class="block break-all mt-2 mb-2 px-2 py-1 text-xs sm:text-sm text-blue-600 fade-in text-center"
             rel="noopener noreferrer" target="_blank" data-test="text-link">
-            https://westernwilson.webflow.io
+            https://westernwilson.com
         </a>
-        <a href="https://westernwilson.webflow.io/"
+        <a href="https://westernwilson.com/"
             class="mt-2 px-4 py-2 rounded bg-[#2563eb] text-white text-sm font-medium shadow hover:bg-blue-700 transition fade-in text-center"
             rel="noopener noreferrer" target="_blank" data-test="button-link">
             Go to new site now
@@ -30,7 +30,7 @@
 <script setup>
 import { ref, onMounted } from 'vue'
 
-const redirectUrl = 'https://westernwilson.webflow.io/'
+const redirectUrl = 'https://westernwilson.com/'
 const redirectDelay = 5000 // 5 seconds
 const progress = ref(0)
 
