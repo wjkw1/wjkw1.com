@@ -2,7 +2,7 @@ import { describe, it, expect, vi, beforeEach, afterEach } from 'vitest'
 import { mountSuspended } from '@nuxt/test-utils/runtime'
 import IndexPage from '~/pages/index.vue'
 
-const REDIRECT_URL = 'https://westernwilson.webflow.io/'
+const REDIRECT_URL = 'https://westernwilson.com/'
 
 describe('Index page tests', () => {
   beforeEach(() => {
