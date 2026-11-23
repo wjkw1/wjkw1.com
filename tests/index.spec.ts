@@ -66,8 +66,10 @@ describe('Index page tests', () => {
     const originalLocation = window.location
     // @ts-expect-error allow reassignment in test
     delete window.location
+    // fake minimal location object; start from a valid href because Nuxt's
+    // router prefetch resolves URLs against window.location.href on mount
     // @ts-expect-error fake minimal location object
-    window.location = { href: '' }
+    window.location = { href: originalLocation.href }
 
     const wrapper = await mountSuspended(IndexPage)
 
